@@ -1,0 +1,367 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "SF UI Display", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+
+}
+
+.hero {
+    height: 100vh;
+    color: #000;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.hero__container {
+    width: 1337px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__link {
+    margin-top: 15px;
+    width: 166px;
+}
+
+.logo__img {}
+
+.nav__models {}
+
+.models__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+    margin-top: 22px;
+}
+
+.models__item {
+    padding: 8px 0px;
+    transition: all 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.models__item:hover {
+    font-size: 20px;
+    color: #e51937;
+    border-bottom: solid #e51937;
+}
+
+.models__link {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+
+.nav__item {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav__link {}
+
+.hero__content {
+    margin: 0 auto;
+    background-image: url(../img/Tesla-fon.png);
+    background-repeat: no-repeat;
+}
+
+.hero__title {
+    text-align: center;
+}
+
+.title {
+    margin-top: 58px;
+    margin-bottom: -20px;
+    font-size: 90px;
+}
+
+.hero__subtitle {
+    font-size: 15px;
+    margin-bottom: 41px;
+    font-weight: 500;
+}
+
+.hero__img-wrap {
+    width: 968px;
+    margin: 0 auto;
+}
+
+.hero__img {}
+
+.hero__parameter {
+    width: 810px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0;
+}
+
+.parameter__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 81px;
+}
+
+.parameter__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.parameter__img-wrap {
+    width: 46px;
+}
+
+.desc__img {}
+
+.parameter__desc {}
+
+.desc__title {
+    margin-bottom: -13px;
+}
+
+.desc__subtitle {
+    font-size: 12px;
+}
+
+.hero__buy {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.buy__test {
+    padding-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 7px;
+}
+
+.buy__test-img {}
+
+.buy__test-title {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.buy__test-btn {}
+
+.btn {
+    background-color: #fff;
+    padding: 10px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e51937;
+    border: solid 2px #e51937;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.translate {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.model {
+    height: 100vh;
+    background-image: url(../img/2013-tesla-model-s-cockpit.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.model__title {
+    font-weight: 600;
+    font-size: 70px;
+    color: #e51937;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.model__content {
+    width: 440px;
+    height: 89%;
+    background: #e51937;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    padding: 50px;
+}
+
+.model__subtitle {
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+}
+
+.model__text {
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 54px;
+}
+
+.model__specifications {}
+
+.specifications__list {}
+
+.specifications__item {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 30px;
+    max-width: 270px;
+}
+
+.specifications__img-wrap {
+    text-align: center;
+}
+
+.specifications__img {}
+
+.specifications__desc {}
+
+.specifications__name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.specifications__subname {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+
+.safety {
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/Model\ S.png);
+    background-repeat: no-repeat;
+    background-position: right 5% top 15%;
+}
+
+.container {}
+
+.safety__container {
+    display: flex;
+
+}
+
+.safety__block {
+    width: 30%;
+    width: 440px;
+    background: #e51937;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    padding: 50px;
+}
+
+.safety__desc {}
+
+.safety__title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.safety__text {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 49px;
+}
+
+.safety__level {}
+
+.level__list {
+    margin-top: 29px;
+    margin-bottom: 101px;
+}
+
+.level__item {
+
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+.level__name {
+    width: 110px;
+}
+
+.level__stars {}
+
+.safety__stars {
+    display: flex;
+    column-gap: 23px;
+}
+
+.safe {}
+
+.stars__desc {
+
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.safety__img-wrap {
+    position: absolute;
+    right: 130px;
+    bottom: 20px;
+}
+
+.safety__img {}
